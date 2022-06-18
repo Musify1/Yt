@@ -4,9 +4,9 @@
 
 # Configurer youtube avec une résolution 720p. La vidéo n'est pas scalée.
 
-VBR="100k"                                    # Bitrate de la vidéo en sortie
-FPS="30"                                       # FPS de la vidéo en sortie
-QUAL="ultrafast"                                  # Preset de qualité FFMPEG
+VBR="2500k"                                    # Bitrate de la vidéo en sortie
+FPS="60"                                       # FPS de la vidéo en sortie
+QUAL="fast"                                  # Preset de qualité FFMPEG
 YOUTUBE_URL="rtmp://x.rtmp.youtube.com/live2"  # URL de base RTMP youtube
 
 SOURCE="yt5s.com-møndberg - Living Free�� [lofi hip hop_relaxing beats](360p).mp4"              # Source UDP (voir les annonces SAP)
